@@ -12,7 +12,7 @@ a simple tableGrid
 
 2、html code
 
- <div id='boardDiv' style='margin-top:0px;'></div>
+ <div id=boardDiv></div>
 
 3、page onload
 

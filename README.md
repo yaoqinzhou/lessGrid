@@ -18,13 +18,21 @@ example
 
 $(document).ready(function(){
 	 var options = {
+	 
 			id:'boardTab',
+			
 			th:['titelName'],
+			
 			colName:['content'], 
-			url:"<%=request.getContextPath()%>/manage/lessGridNoticeInfo.do",
+			
+			url:urlPath,
+			
 			pageNo:1,
+			
 			pageSize:20,
+			
 			pagination:true
+			
 		};
 	  
 	  $("#boardDiv").lessGrid(options);

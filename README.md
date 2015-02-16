@@ -22,22 +22,16 @@ a simple tableGrid
 
 ```
 $(document).ready(function(){
+	var urlPath = 'xxxx';  //your request path
+
 	 var options = {
-	 
 			id:'boardTab',
-			
 			th:['titelName'],
-			
 			colName:['content'], 
-			
 			url:urlPath,
-			
 			pageNo:1,
-			
 			pageSize:20,
-			
 			pagination:true
-			
 		};
 	  
 	  $("#boardDiv").lessGrid(options);

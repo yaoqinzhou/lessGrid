@@ -39,6 +39,11 @@ $(document).ready(function(){
 
 });	
 
+4、Data format
+
+{"downloadMapList":[{},{}],"totalPageNo":20}
+
+downloadMapList is row data,  totalPageNo is totalPageNum
 	
 	
 

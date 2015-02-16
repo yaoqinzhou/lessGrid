@@ -1,0 +1,6 @@
+.lessGridTable{width:100%;border:0;text-align:center;border-collapse:collapse;border-spacing:0;}
+.lessGridTable th{background:#66A9BD;font-weight:normal;line-height:30px;font-size:14px;color:black;text-align:center;}
+.lessGridTable tr:nth-child(odd){background:#F4F4F4;}
+.lessGridTable td:nth-child(even){color:#20252B;}
+.lessGridTable tr:hover{background:#73B1E0;color:red;}
+.lessGridTable td,.lessGridTable th{border:1px solid #EEE;}

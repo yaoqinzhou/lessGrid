@@ -15,20 +15,21 @@ example
 <div id="boardDiv" style="margin-top:0px;"></div>
 
 3、page onload
-    $(document).ready(function(){
-		 var options = {
-				id:'boardTab',
-				th:['titelName'],
-				colName:['content'], 
-				url:"<%=request.getContextPath()%>/manage/lessGridNoticeInfo.do",
-				pageNo:1,
-				pageSize:20,
-				pagination:true
-			};
-		  
-		  $("#boardDiv").lessGrid(options);
-	
-	});	
+
+$(document).ready(function(){
+	 var options = {
+			id:'boardTab',
+			th:['titelName'],
+			colName:['content'], 
+			url:"<%=request.getContextPath()%>/manage/lessGridNoticeInfo.do",
+			pageNo:1,
+			pageSize:20,
+			pagination:true
+		};
+	  
+	  $("#boardDiv").lessGrid(options);
+
+});	
 
 	
 	

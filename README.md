@@ -3,7 +3,7 @@ a simple tableGrid
 
 ##How to use
 
-###example
+##example
 
 1、import css & js file
 

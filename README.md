@@ -12,9 +12,9 @@ a simple tableGrid
 
 2、html code
 
-
+```
  <div id=boardDiv/>
-
+```
  
 3、page onload
 

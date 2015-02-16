@@ -7,8 +7,10 @@ a simple tableGrid
 
 1、import css & js file
 
-  import lessGrid.css && jquery.lessGrid-0.0.1.min.js
-
+```
+<link rel="stylesheet" href="../StaticResource/css/lessGrid.css" type="text/css" />	
+<script type="text/javascript" src="../StaticResource/js/jquery.lessGrid-0.0.1.min.js"></script>
+```
 
 2、html code
 
@@ -18,6 +20,7 @@ a simple tableGrid
  
 3、page onload
 
+```
 $(document).ready(function(){
 	 var options = {
 	 
@@ -40,6 +43,7 @@ $(document).ready(function(){
 	  $("#boardDiv").lessGrid(options);
 
 });	
+```
 
 4、Data format
 

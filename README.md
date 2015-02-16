@@ -44,6 +44,11 @@ $(document).ready(function(){
 {"downloadMapList":[{},{}],"totalPageNo":20}
 
 downloadMapList is row data,  totalPageNo is totalPageNum
+
+Lience
+
+MIT
+
 	
 	
 
